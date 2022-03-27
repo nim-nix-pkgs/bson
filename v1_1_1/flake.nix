@@ -11,6 +11,7 @@
   inputs.src-bson-v1_1_1.ref   = "refs/tags/v1.1.1";
   inputs.src-bson-v1_1_1.owner = "JohnAD";
   inputs.src-bson-v1_1_1.repo  = "bson";
+  inputs.src-bson-v1_1_1.dir   = "";
   inputs.src-bson-v1_1_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

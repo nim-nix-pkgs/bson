@@ -11,6 +11,7 @@
   inputs.src-bson-master.ref   = "refs/heads/master";
   inputs.src-bson-master.owner = "JohnAD";
   inputs.src-bson-master.repo  = "bson";
+  inputs.src-bson-master.dir   = "";
   inputs.src-bson-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
