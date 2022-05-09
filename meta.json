@@ -7,7 +7,7 @@
   "license": "MIT",
   "web": "https://github.com/JohnAD/bson",
   "refs": [
-    "fatal: unable to access 'https://github.com/JohnAD/bson/': SSL connection timeout",
+    "fatal: unable to access 'https://github.com/JohnAD/bson/': OpenSSL SSL_read: Connection timed out, errno 110",
     ""
   ],
   "heads": []
